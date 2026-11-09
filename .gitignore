@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Conda / virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Data (do not upload datasets)
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Generated models
+models/
+*.pkl
+*.joblib
+
+# Generated results
+results/*
+
+# OS files
+.DS_Store
+Thumbs.db
