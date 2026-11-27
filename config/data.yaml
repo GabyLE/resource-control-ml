@@ -1,0 +1,10 @@
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim/combined
+  processed_dir: data/processed
+
+tables:
+  orders: tblorderpos
+  boxes: tblboxpos
+  buffers: tblbufferpos
+  parameters: tblstepparameter
